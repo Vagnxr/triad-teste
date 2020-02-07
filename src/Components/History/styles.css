@@ -1,0 +1,36 @@
+.history-menu {
+    text-align: center;
+}
+
+.history-menu h1 {
+    color: #eee;
+    margin-top: 30px;
+}
+
+.history-menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.history-menu ul li {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #4EC879;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-menu ul li a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.history-menu ul li a:hover {
+    color: #4EC879
+}

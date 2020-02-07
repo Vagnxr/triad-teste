@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #121212;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+.link-auth {
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1ED760;
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: 0.5s;
+  }
+  
+  .link-auth:hover {
+    background-color: rgb(65, 153, 96);
+  }
