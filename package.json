@@ -1,5 +1,8 @@
 {
   "name": "triad-teste",
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
